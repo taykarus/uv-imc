@@ -1,0 +1,78 @@
+/* --- General --- */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e8e8e8;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* --- Form --- */
+#form-imc {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+#form-imc fieldset {
+    padding: 1em;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+#form-imc label, input, select {
+    font-size: 1.5em;
+}
+
+.form-group {
+    margin: 1em;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input, select {
+    width: 100%;
+}
+
+.form-action-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn-calc {
+    background-color: rgb(32, 32, 32);
+    color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5em;
+    padding: 0.5em;
+
+}
+
+/* --- Result --- */
+.result-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1em;
+    flex-wrap: wrap;
+}
+
+.result-container h3 {
+    text-align: center;
+    width: 100%;
+}
+
+#result {
+    font-size: 1.8em;
+}
